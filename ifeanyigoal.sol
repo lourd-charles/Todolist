@@ -14,7 +14,7 @@ contract Todolist{
         string content;
         bool completed;
 
-    }
+      }
     
      mapping(uint256 => Task[]) public tasks;
     
